@@ -1,0 +1,36 @@
+.xadrez{
+    top: 0;
+    left: 0;
+}
+
+.branco{
+    background-color: #efefef;
+}
+
+.azul{
+    background-color: #767676;
+}
+
+.cavalo{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    animation: cavalo 12s infinite;
+}
+
+@keyframes cavalo{
+    0%{top:10px;left:10px;}
+    12%{top:10px;left:200px;}
+    20%{top:+200px;}
+    28%{left:+600px;}
+    36%{top:+300px;}
+    42%{left:+700px;top:+500px;}
+    50%{left:+500px;}
+    58%{top:+600px;}
+    66%{left:+300px;top:+700px;}
+    74%{left:+100px;top:+600px;}
+    80%{top:+600px;left:+200px;}
+    88%{top:+200px;}
+    94%{left:10px;}
+    100%{top:10px;left:10px;}
+}
